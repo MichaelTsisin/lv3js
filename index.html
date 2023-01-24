@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+    <img id="coverImage" src="dice.webp" alt="dice">
+    <link rel="stylesheet" href="look.css">
+    <script src = "dicee.js">
+    </script>
+</head>
+
+<body onload="starterup();">
+
+    <h1>Roll DIce</h1>
+  
+ <div class="table">
+        <table>
+            <tr>
+                      <th>Doubles</th>
+                <td id="twotwo"></td>
+            </tr>
+                        <tr>
+                <th>Frequency</th>
+                               <td id="oneone"></td>
+                         </tr>
+                           <tr>
+                <th>Mean</th>
+                                       <td id="onetwo"></td>
+            </tr>
+            <tr>
+                         <th>Triples</th>
+                     <td id="twothree"></td>
+            </tr>
+            <tr>
+                                <th>Mode</th>
+                <td id="twoone"></td>
+                    </tr>
+            <tr>
+                        <th>Median</th>
+                                     <td id="onethree"></td>
+            </tr>
+                  </table>
+    </div>   
+
+    <div class="rinput">
+                      <h3>number of dice</h3>
+        <form>
+                                 <input type="radio" id="onedie" name="nod" value="1">
+                        <label for="onedie">One Die</label><br>
+                             <input type="radio" id="forttwo" name="nod" value="2">
+            <label for="forttwo">Two Dice</label><br>
+                           <input type="radio" id="threedice" name="nod" value="3">
+            <label for="fortthree">Three Dice</label><br>
+                  </form>
+    </div>
+
+    <br>
+
+          <button id="button" onclick="roller();">Roll</button>
+
+          <br>
+
+          <div class="tinput">
+        <h3>#rolls</h3>
+                    <form>
+             <input type="number" id="nor" name="nor">
+        </form>
+          </div>
+                  
+    
+</body>
+
+</html>

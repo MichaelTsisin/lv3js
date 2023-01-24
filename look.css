@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(202, 47, 42);
+    display: flex;
+    justify-content: left;
+               align-items: left;
+    flex-direction: row;
+                }
+
+                h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+                h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+                h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.radioinput {
+              display: flex;
+    flex-direction: row;
+                  align-items: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+             width: 800px;
+         height: 300px;
+  }
+
+.textinput {
+             display: flex;
+             flex-direction: row;
+    align-items: left;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#onedie{
+             accent-color: rgb(35, 81, 160);
+}
+
+#forttwo{
+                 accent-color: rgb(27, 50, 169);
+}
+
+#fortthree{
+             accent-color: rgb(29, 21, 146);
+}
+
+#numberOfRolls {
+            margin-left: 12%;
+    width: 18%;
+
+}
+
+#button {
+         width: 20%;
+             height: 15px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: large;
+}
+
+.table, th, td {
+              width: 40%;
+  
+   
+    text-align: left;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
